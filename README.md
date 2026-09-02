@@ -48,9 +48,16 @@ proves **we** are the ones who signed them.
 Every release has a `taskpole.apk.sha256` file attached beside the APK, and the
 same hash is printed in the release notes.
 
+macOS or Linux:
+
 ```bash
-shasum -a 256 taskpole.apk        # macOS / Linux
-certutil -hashfile taskpole.apk SHA256   # Windows
+shasum -a 256 taskpole.apk
+```
+
+Windows (PowerShell or Command Prompt):
+
+```powershell
+certutil -hashfile taskpole.apk SHA256
 ```
 
 The value must match the release exactly. If it does not, delete the file and
