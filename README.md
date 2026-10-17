@@ -137,6 +137,7 @@ version. There is no source code here — TaskPole's source is private — and n
 issue tracker.
 
 - **Support, questions, bug reports:** <support@taskpole.com>
+- **Feedback, suggestions:** <support@taskpole.com>
 - **Security or anything that looks like an impersonation of this app:** email
   <support@taskpole.com> and say so in the subject line. If you have found an
   APK claiming to be TaskPole with a different signing fingerprint, we want to
